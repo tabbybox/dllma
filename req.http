@@ -1,0 +1,8 @@
+POST http://localhost:11434/api/generate
+content-type: application/json
+
+{
+  "model": "llama2-uncensored",
+  "prompt":"dsf",
+  "stream": false
+}
